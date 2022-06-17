@@ -1,0 +1,191 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/*header*/
+.header{
+   width: 100%;
+   background-image: url(images/Green\ forest.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.nav{
+   width: 100%;
+   height: 180px;
+   display: flex;
+   background-image: linear-gradient(rgb(76, 223, 76),transparent);
+   align-items: center;
+   padding: 10px 0;
+   font-size: 30px;
+}
+.nav img{
+   border: none;
+   border-radius: 500px;
+   margin:30px 100px;
+   width: 150px;
+   height: 150px;
+}
+.nav ul{
+   margin: 0 50px 60px 50px;
+}
+.nav ul li{
+   list-style-type: none;
+   display: inline-block;
+   margin: 0 30px;
+   padding: 50px 20px 0 20px;
+   
+}
+.nav>ul>li>a{
+   text-decoration: none;
+   color: aliceblue;
+   text-shadow: 5px 7px 15px rgb(0, 0, 0),0 0 5px rgb(0, 0, 0);
+   font-size: 35px;
+}
+.nav>ul>li>a:hover{
+   border: 5px outset rgb(103, 235, 114);
+   text-align: center;
+   padding: 5px;
+}
+
+.nav input{
+   position: relative;
+   right: 1px;
+   margin: 40px 50px 0 0;
+}
+
+#nav_search{
+   width: 200px;
+   height: 30px;
+   position: relative;
+   bottom: 30px;
+   left: 20px;
+}
+#nav_search-btn{
+   width: 50px;
+   height: 34px;
+   position: relative;
+   right: 30px;
+   bottom: 10px;
+}
+/*content*/
+.blog>h1{
+   font-family: 'Libre Baskerville', serif;
+   text-align: center;
+   margin-top: 40px;
+   font-size: 70px;
+}
+.index-blog{
+   margin: 100px; 
+   display: flex;
+   
+}
+.index-blog img{
+   width: 45%;
+ 
+}
+
+.index-blog-content{
+   padding: 40px 0;
+   
+}
+.index-blog-content h1{
+   text-transform: capitalize;
+   font-size: 45px;
+   text-align: left;
+   padding-bottom: 20px;
+   color:rgb(76, 223, 76);
+ }
+.index-blog-content p{
+   width: 90%;
+   font-size: 24px;
+   font-family: 'Nunito', sans-serif;
+   font-weight: 700;
+   text-align: justify;
+ }
+.index-blog-content button{
+   margin-top: 30px;
+   width: 140px;
+   height: 54px;
+   background-color: rgb(115, 205, 92);
+   border: none;
+   box-shadow: 2px 2px 7px rgba(88, 88, 88, 0.608);
+  
+}
+.index-blog-content a{
+   text-decoration: none;
+   text-transform: capitalize;
+   color: aliceblue;
+   font-size: 15px;
+   font-weight: 700;
+  }
+.index-blog-content button:hover{
+   background-color: rgb(255, 254, 254);
+   border: 1px solid black;
+}
+.index-blog-content button:hover a{
+   color: rgb(68, 243, 24);
+}
+/*footer*/
+.footer{
+   display: flex;
+   width: 100%;
+   height: 300px;
+   background-color: rgb(76, 223, 76);
+   justify-content: space-between;
+}
+.footer-one{
+   margin: 40px 160px auto;
+}
+.footer-one ul li{
+   list-style-type: none;
+   padding: 0 10px 10px ;
+}
+.footer-one a{
+   text-decoration: none;
+   font-size: 1.3em;
+   color: white;
+}
+.footer-one a:hover{
+   color: black;
+   text-transform: uppercase;
+   font-weight: 900;
+}
+.footer-two{
+   margin: 47px 0 auto -10%;
+}
+.footer-two h1{
+   font-size: 40px;
+   color: white;
+   font-family:'Times New Roman', Times, serif;
+}
+.footer-two img{
+   width: 40px;
+   padding:20px 30px;
+   border-radius: 100%; 
+}
+.footer-two img:hover{
+  border: none;
+  width: 50px;
+}
+.footer-three{
+   margin: 40px 5% auto 0;
+}
+.footer-three h1{
+   font-family:'Times New Roman', Times, serif;
+   color: rgb(255, 255, 255);
+   text-shadow: 0 5px 10px rgb(22, 21, 21);
+   font-size: 40px;
+}
+.footer-three img{
+   border: none;
+   border-radius: 500px;
+   margin:10px 100px;
+   width: 150px;
+   height: 150px;
+}
+.copyright{
+   text-align: center;
+   font-weight: 700;
+   font-size: larger;
+   padding: 10px 0 5px 0;
+}
